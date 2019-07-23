@@ -1,0 +1,24 @@
+Tilemap design notes:
+tilewidth - 70
+tileheight - 70
+
+width - 200 tiles = 200 * 70 
+height - 20 tiles = 20 * 70
+
+
+Minimum bottom 5 tiles required for bricks
+
+if required give spacing x - 2 px while designing Tilemap
+
+Sprite animation:
+Must be in single Sprite sheet
+Must be in single row
+Must have same width and height and space spacing
+
+Each sprite characters must be in separate file. For example,
+
+Player all action in single sprite
+Enemy 1 all action in single sprite
+Enemy 2 all action in single sprite
+
+Total 2 sprite sheets and one Tilemap
